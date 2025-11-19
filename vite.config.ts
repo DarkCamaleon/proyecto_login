@@ -12,7 +12,7 @@ export default defineConfig({
     vueDevTools(),
      tailwindcss(),
   ],
-  base:'https://github.com/DarkCamaleon/proyecto_login',
+  base:'/proyecto_login/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
